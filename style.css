@@ -10,16 +10,34 @@
   width: 100%;
   height: 100vh;
   background-color:#01161E;
+}
+
+.weatherForContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  position: relative;
+  top: 30%;
+  justify-content: center;
+  justify-content: space-around;
+  /* background-color:#01161E; */
 }
 
 
 .weather {
   z-index: 2;
   display: flex;
+  position: relative;
+  top: 20%;
   align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.weatherFor {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 
@@ -45,6 +63,22 @@
 .weather3 img {
   width: 2rem;
 }
+
+/* .space{
+  display: block;
+  height: auto;
+  width: auto;
+  color: white;
+} */
+
+/* .forecast{
+  display: table;
+  position: relative;
+  top: 20%;
+  width: auto;
+  color: white;
+} */
+
 nav {
   height: 100px;
   padding: 1rem 0;
